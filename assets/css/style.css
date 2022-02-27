@@ -6,15 +6,21 @@ body {
     text-align: center;
 }
 
-h1,
-h2 {
-    color: darkred;
-}
-
-h3, 
-p,
+h3,
 li {
     color: green;
+}
+
+p,
+span {
+    text-align: left;
+    color: green;
+}
+
+h1,
+h2,
+h4, {
+    color: darkred;
 }
 
 img {
@@ -54,6 +60,7 @@ nav a:hover {
 }
 
 #closing {
+    margin: 5px;
     background-color: beige;
     border-style: solid;
     border-color: green;
@@ -61,8 +68,6 @@ nav a:hover {
     border-radius: 5;
     color: darkred;
     font-family: sans-serif;
-    padding: 10px;
-    margin: 5px;
 }
 
 #banner {
@@ -76,8 +81,24 @@ nav a:hover {
     height: auto;
 }
 
+#loclist ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+    
+.loc {
+    display: inline;
+    margin: 25px;
+}
+
+.about {
+    text-align: center;
+}
+
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -94,6 +115,21 @@ table {
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid green;
     padding: 5px;
+ }
+
+ thead {
+    font-weight: bold;
+ }
+
+ footer {
+     font-family: sans-serif;
+     color: darkred;
+ }
+
+ footer p {
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
 }

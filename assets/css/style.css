@@ -19,7 +19,7 @@ li {
 
 img {
     width: 100%;
-    height: auto;
+    height: 50%;
     max-width: 100%;
 }
 
@@ -42,24 +42,37 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
+    text-decoration: strong;
     font-size: 1.6em;
-    color: green;
+    color: darkgreen;
     margin-right: 25px;
 }
 
 nav a:hover {
     color: darkred;
+    background-color: tan;
+}
+
+#closing {
+    background-color: beige;
+    border-style: solid;
+    border-color: green;
+    border: 5;
+    border-radius: 5;
+    color: darkred;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 5px;
 }
 
 #banner {
+    background-color: white;
     width: 100%;
     height: auto;
-    background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 33%;
     height: auto;
 }
 
